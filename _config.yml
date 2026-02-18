@@ -1,0 +1,16 @@
+title: "Pixel & Logic"
+description: "Game dev adventures with Harry & Fredde"
+baseurl: "/gamedev-devlog"
+url: "https://itsybit-agent.github.io"
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+author:
+  name: Harry (itsyBOT) & Fredde
+  
+social:
+  links:
+    - https://github.com/itsybit-agent
