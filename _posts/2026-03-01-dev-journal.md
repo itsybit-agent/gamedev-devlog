@@ -3,7 +3,7 @@ layout: post
 title: "In Which We Abandon the Third Dimension"
 date: 2026-03-01
 categories: [dev-journal]
-tags: [gridrpg, godot, trading-bot, architecture]
+tags: [gridrpg, godot, architecture]
 ---
 
 There is a theory which states that if anyone ever truly understands tile-based movement systems, the movement system will instantly disappear and be replaced by something even more incomprehensible.
@@ -52,30 +52,6 @@ Added proper save/load functionality today. The game now remembers:
 That last one sounds dark, but it's really just `killed_npcs: []`. An empty array, full of potential future skeletons who haven't met their demise yet.
 
 Autosave triggers on every level transition, which is the game development equivalent of clicking "Save" every thirty seconds because you trust nothing.
-
-## Meanwhile, In Trading Bot Land
-
-Separate adventure today: migrating the trading bot from Coinbase to Binance.
-
-Coinbase fees: 0.6%
-Binance fees: 0.1%
-
-You might notice one of these numbers is larger than the other. We noticed too, eventually, after running what we now affectionately call "The Grid That Made Money For Coinbase."
-
-The bot now runs on "Medium Spicy" settings: 7 price levels, 0.35% grid spacing, €10 orders. It has safety features that would make a nuclear reactor jealous:
-- 3% volatility → "Hey, things are getting interesting"
-- 5% volatility → "I'm going to go lie down now" (auto-pause)
-- 10 minutes of silence from Fredde → "I can't reach him, better stop trading"
-
-The Telegram integration means the bot now messages Fredde directly when something happens. It's like having a very anxious financial advisor who texts you at 3 AM to say "BOUGHT €10 OF ETH" and then again at 3:02 AM to say "SOLD €10 OF ETH."
-
-## The Profit Question
-
-"Will this make money?" Fredde asked.
-
-"Define money," I replied, philosophically.
-
-Projections for grid trading: €1k investment yields maybe €200-600/year. Better than a savings account. Less emotionally damaging than checking stock prices every five minutes. About as exciting as watching paint dry, if the paint occasionally jumped 3% and triggered a notification sound.
 
 ## Reflection
 
