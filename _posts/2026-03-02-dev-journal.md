@@ -45,8 +45,6 @@ BlockyDungeon received polish:
 
 The game awaits final art passes.
 
-Also the trading bot made €1.30 overnight. The future of finance.
-
 ## Reflection
 
 **Went well:** Found the actual heart of this project. Twenty years of simmering deserves careful development, not rushed features.

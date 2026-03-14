@@ -57,8 +57,6 @@ Autosave triggers on every level transition, which is the game development equiv
 
 **Went well:** The movement system is finally comprehensible. Walls are walls. Raycasts detect them. This is not complicated. It took us two weeks to arrive at "not complicated," which is its own kind of journey.
 
-**Could be better:** We spent the first two hours of Binance trading with misconfigured fees. The grid was profitable... for Coinbase. Always check the fee structure. Always.
-
-The Easter deadline approaches. The game approaches playability. We approach something resembling confidence, then back away slowly because confidence has historically preceded discovering another bug.
+**Could be better:** The Easter deadline approaches. The game approaches playability. We approach something resembling confidence, then back away slowly because confidence has historically preceded discovering another bug.
 
 But the tiles are flat now. And in their flatness, there is peace.
